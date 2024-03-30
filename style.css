@@ -1,0 +1,87 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    color: #80868c;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    text-decoration: bold;
+}
+.container{
+    display: flex;
+    width: 1170;
+   height: 100vh;
+   align-items: center;
+   justify-content: center;
+   background-color:RGBA(14,14,17,0.57) 
+}
+.box_login{
+    width: 50%;  
+    padding: 40px;
+    background-color:RGBA(14,14,17,0.57) ;
+    border-radius: 12px;
+}
+img.icon{
+    object-fit: cover;
+}
+h1.name{
+    display: inline;
+   
+    margin-left: 10px;
+}
+p.login__desc{
+    margin-top: 15px;
+}
+
+.topbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+h1.name{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.login__desc{
+    font-size: 1.6rem;
+    color: aliceblue;
+
+}
+.topbox__right .button{
+    padding: 12px;
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.767);
+    color: aliceblue;
+    border: 1px solid #e3e3e3d0;
+    border-radius: 12px;
+}
+.box__info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.content-input{
+    padding: 10px;
+    border-radius:12px ;
+    background-color: rgba(0, 0, 0, 0.767);
+    margin-top: 5px;
+    color: aliceblue;
+    border-color: 1px solid #e3e3e3d0;
+    outline: none;
+
+}
+.button_login{
+    background-color: #D0D5Da;
+    width: 90%;
+    padding: 12px;
+    border-radius: 12px;
+padding: 15px;
+margin:15px 0;
+    text-align: center;
+}
