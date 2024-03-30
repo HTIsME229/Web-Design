@@ -24,7 +24,7 @@ a{
     width: 50%;  
     padding: 40px;
     background-color:RGBA(14,14,17,0.57) ;
-    border-radius: 12px;
+    border-radius: 20px;
 }
 img.icon{
     object-fit: cover;
@@ -70,10 +70,10 @@ h1.name{
     padding: 10px;
     border-radius:12px ;
     background-color: rgba(0, 0, 0, 0.767);
-    margin-top: 5px;
+    margin-top: 10px;
     color: aliceblue;
     border-color: 1px solid #e3e3e3d0;
-    outline: none;
+    width: 90%;
 
 }
 .button_login{
@@ -83,5 +83,13 @@ h1.name{
     border-radius: 12px;
 padding: 15px;
 margin:15px 0;
+    text-align: center;
+
+}
+.Forget{
+    text-align: center;
+    margin-top: 15px;
+}
+p.sign-up{
     text-align: center;
 }
