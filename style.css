@@ -25,6 +25,7 @@ a{
     padding: 40px;
     background-color:RGBA(14,14,17,0.57) ;
     border-radius: 20px;
+    transition: 0.5s;
 }
 img.icon{
     object-fit: cover;
@@ -92,4 +93,8 @@ margin:15px 0;
 }
 p.sign-up{
     text-align: center;
+}
+.exit{
+   
+   transform: translateX(-200%);
 }

@@ -1,0 +1,212 @@
+html{
+    font-size: 62.5%;
+}
+.head{
+   
+}
+.container-head{
+    width: 1140px;
+    margin: 0 auto;
+    max-width:(100%-48px);
+    background-image: url("./assets/icon/thelastofus.jpg" );
+    object-fit: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto; 
+   
+    
+
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    max-width:(100%-48px);
+    background-color: black;
+}
+body{
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    background-color: rgba(18, 18, 18, 0.716);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 39px 75px;
+    margin-bottom: 218px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    text-decoration: bold;
+}
+.link{
+    display: flex;
+    gap: 45px;
+
+}
+.icon{
+    display: flex;
+    gap:23px;
+}
+.logo{
+    display: flex;
+    align-items: baseline;
+}
+.logo .logo-img{
+    margin-right: 5px;
+
+}
+.logo .logo-text{
+    font-size: 1.2rem;
+    
+}
+.film{
+    display: flex;
+    padding: 64px 75px;
+    justify-content: space-between;
+    
+}
+
+.film .series{
+    display: inline-block;
+font-size: 1.2rem;
+font-weight: 500;
+line-height: 1.66; /* 166.667% */
+padding: 4px 16px;
+border-radius: 16px;
+background-color: black;
+margin-bottom: 10px;
+margin-top: 15px;
+
+}
+.film .name{
+font-size: 3.2rem;
+font-weight: 700;
+line-height: 1.25; /* 125% */
+letter-spacing: 0.16px;
+margin-bottom: 8px;
+}
+.film .about{
+    color: #9CA4AB;
+    font-size: 1.4rem;
+    margin-bottom: 24px;
+}
+.film .button{
+    display: flex;
+    gap: 24px;
+}
+.film .button .watching{
+    display: flex;
+    padding: 12px 24px;
+    background-color:  #00925D;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+
+    
+}
+.film .button .icon{
+    margin-right: 5px;
+}
+.film .button .watch-list{
+    display: flex;
+    padding: 12px 24px;
+    border-radius: 10px;
+    border: 1px solid  #FFF;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.content-right{
+    display: flex;
+    align-items: end;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.item{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    white-space: pre;
+    padding: 12px 24px;
+    border-radius: 10px;
+border: 1px solid  #28262D;
+background: #0D0C0F;
+}
+.film-info{
+    padding: 40px 75px;
+   
+}
+.cast{
+    position: relative;
+    row-gap: 100px;
+}
+.cast-list{
+   
+    display: grid;
+    column-gap: 24px;
+    grid-template-columns: repeat(7,1fr);
+    overflow: hidden;
+   
+}
+.film-info .heading{
+    color: #fff;
+font-size: 1.8rem;
+font-weight: 700;
+line-height: 1.44px;
+margin-bottom: 16px;
+
+}
+.film-info .story-info{
+  color:  #9CA4AB;
+
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.08px;
+margin-bottom: 24px;
+}
+.cast-item{
+    display: flex;
+
+
+}
+.cast-item .avt{
+    margin-right: 12px;
+}
+.cast-item .real-name{
+   
+font-weight: 600;
+line-height: 1.5; 
+letter-spacing: 0.08px;
+}
+.cast-item .char-name{
+    font-size: 1.2rem;
+font-weight: 500;
+line-height: 1.66;
+letter-spacing: 0.06px;
+color: #9CA4AB;
+}
+.cast-item .name{
+    display: flex;
+    flex-direction: column;
+    white-space: pre;
+}
+.cast-list svg.arrow{
+position: absolute;
+padding: 9px;
+color: #FFF;
+border-radius: 50%;
+background-color: #28262D;
+top: 23px;
+ right: -42px;
+ display: inline-block;
+    
+}
+.cast .heading{
+    margin-bottom: 24px;
+}
+
