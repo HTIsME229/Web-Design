@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="main.css">
     <title>Cinema</title>
@@ -11,6 +15,7 @@
     <header>
         <section class="header" >
             <div class="container-head">
+                <div class="blur-layer"></div>
                 <nav class="nav">
                     <div class="logo">
                    <img src="./assets/icon/watching-a-movie.png" alt="" class="logo-img">
@@ -93,42 +98,50 @@
         </div>
         <div class="cast">
             <h1 class="heading">Diễn Viên</h1>
-             <div class="cast-list">
-                <div class="cast-item">
-                    <img src="./assets/icon/Bg.svg" alt="" class="avt">
-                   <div class="name">
-                     <p class="real-name">Pedro Pascal</p>
-                     <p class="char-name">Joel Miller</p>
-                   </div>
-                </div>
-                <div class="cast-item">
-                    <img src="./assets/icon/Bg (1).svg" alt="" class="avt">
-                    <div class="name">
-                        <p class="real-name">Bella Ramsey</p>
-                        <p class="char-name">Ellie</p>
+             <div class="cast-list">    
+               <div class="click-back">
+                 <div class="arrow-back">
+                 </div> 
+               </div>
+                <div class="five-cast">
+                    <div class="cast-item">
+                        <img src="./assets/icon/Bg.svg" alt="" class="avt">
+                       <div class="name">
+                         <p class="real-name">Pedro Pascal</p>
+                         <p class="char-name">Joel Miller</p>
+                       </div>
                     </div>
-                </div>
-                <div class="cast-item">
-                    <img src="./assets/icon/Bg (2).svg" alt="" class="avt">
-                    <div class="name">
-                        <p class="real-name">Anna Torv</p>
-                        <p class="char-name">Tessa</p>
+                    <div class="cast-item">
+                        <img src="./assets/icon/Bg (1).svg" alt="" class="avt">
+                        <div class="name">
+                            <p class="real-name">Bella Ramsey</p>
+                            <p class="char-name">Ellie</p>
+                        </div>
                     </div>
-                </div>
-                <div class="cast-item">
-                    <img src="./assets/icon/Bg (3).svg" alt="" class="avt">
-                    <div class="name">
-                        <p class="real-name">Ashley Johnson</p>
-                        <p class="char-name">Ellie Mother</p>
+                    <div class="cast-item">
+                        <img src="./assets/icon/Bg (2).svg" alt="" class="avt">
+                        <div class="name">
+                            <p class="real-name">Anna Torv</p>
+                            <p class="char-name">Tessa</p>
+                        </div>
                     </div>
-                </div>
-                <div class="cast-item">
-                    <img src="./assets/icon/Bg (4).svg" alt="" class="avt">
-                    <div class="name">
-                        <p class="real-name">Nick Offerman</p>
-                        <p class="char-name">Bill</p>
-                    </div >
-                </div>
+                    <div class="cast-item">
+                        <img src="./assets/icon/Bg (3).svg" alt="" class="avt">
+                        <div class="name">
+                            <p class="real-name">Ashley Johnson</p>
+                            <p class="char-name">Ellie Mother</p>
+                        </div>
+                    </div>
+                    <div class="cast-item">
+                        <img src="./assets/icon/Bg (4).svg" alt="" class="avt">
+                        <div class="name">
+                            <p class="real-name">Nick Offerman</p>
+                            <p class="char-name">Bill</p>
+                        </div >
+                    </div>
+                    </div>
+                             <!-- 5 cast -->
+            <div class="five-cast">
                 <div class="cast-item">
                     <img src="./assets/icon/Bg (5).svg" alt="" class="avt">
                    <div class="name">
@@ -143,15 +156,40 @@
                         <p class="char-name">Frank</p>
                     </div>
                 </div>
-             
-             <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="8" height="16" viewBox="0 0 8 16" fill="currentColor">
-                <path d="M1.42501 15.225C1.26668 15.225 1.10834 15.1667 0.983343 15.0417C0.741677 14.8 0.741677 14.4 0.983343 14.1583L6.41668 8.72502C6.81668 8.32502 6.81668 7.67502 6.41668 7.27502L0.983343 1.84168C0.741677 1.60002 0.741677 1.20002 0.983343 0.95835C1.22501 0.716683 1.62501 0.716683 1.86668 0.95835L7.30001 6.39168C7.72501 6.81668 7.96668 7.39168 7.96668 8.00002C7.96668 8.60835 7.73334 9.18335 7.30001 9.60835L1.86668 15.0417C1.74168 15.1583 1.58334 15.225 1.42501 15.225Z" fill="#F9F9F9"/>
-                </svg>
+                <div class="cast-item">
+                    <img src="./assets/icon/Bg (6).svg" alt="" class="avt">
+                    <div class="name">
+                        <p class="real-name">Murray Bartlett</p>
+                        <p class="char-name">Frank</p>
+                    </div>
+                </div>
+                <div class="cast-item">
+                    <img src="./assets/icon/Bg (6).svg" alt="" class="avt">
+                    <div class="name">
+                        <p class="real-name">Murray Bartlett</p>
+                        <p class="char-name">Frank</p>
+                    </div>
+                </div>
+                <div class="cast-item">
+                    <img src="./assets/icon/Bg (6).svg" alt="" class="avt">
+                    <div class="name">
+                        <p class="real-name">Murray Bartlett</p>
+                        <p class="char-name">Frank</p>
+                    </div>
+                </div>
+            </div>
+            <div class="click-ahead">
+                 <svg class="arrow ahead" xmlns="http://www.w3.org/2000/svg" width="8" height="16" viewBox="0 0 8 16" fill="currentColor">
+                    <path d="M1.42501 15.225C1.26668 15.225 1.10834 15.1667 0.983343 15.0417C0.741677 14.8 0.741677 14.4 0.983343 14.1583L6.41668 8.72502C6.81668 8.32502 6.81668 7.67502 6.41668 7.27502L0.983343 1.84168C0.741677 1.60002 0.741677 1.20002 0.983343 0.95835C1.22501 0.716683 1.62501 0.716683 1.86668 0.95835L7.30001 6.39168C7.72501 6.81668 7.96668 7.39168 7.96668 8.00002C7.96668 8.60835 7.73334 9.18335 7.30001 9.60835L1.86668 15.0417C1.74168 15.1583 1.58334 15.225 1.42501 15.225Z" fill="#F9F9F9"/>
+                    </svg>
+            </div>
+            </div>
             </div>
         </div>
     
         </section>
     </div>
     </main>
+    <script src="./main.js"></script>
 </body>
 </html>
