@@ -228,15 +228,19 @@ top: 23px;
    margin-right: 50px;
  
 }
-.click-back{ 
-    text-align: center;
+ .click-back{
 
-    position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
     padding: 9px;
     border-radius: 50%;
+    background-color: #28262D;
+}
+.cast-list .click-back{
+    position: absolute;
     top: 29px;
     left: -43px;
-    background-color: #28262D;
 }
 .arrow-back{
     
@@ -249,4 +253,101 @@ top: 23px;
    padding: 5px;
    border-radius: 2px;  
   
+}
+.options{
+    
+    padding-left: 75px;
+    padding-right: 75px;
+}
+ .choice-list{
+   display: flex;
+   font-weight: 600;
+line-height: 1.5; /* 150% */    
+letter-spacing: 0.08px;
+gap:24px;
+padding-bottom: 30px;
+ }
+ .options .heading{
+    position: relative;
+    font-size: 2.4rem;
+
+font-weight: 700;
+line-height: 1.33; 
+letter-spacing: 0.12px;
+margin-bottom: 24px;
+
+ }
+ .options .episode .title{
+    font-size: 2.4rem;
+
+    font-weight: 700;
+    line-height: 1.33; 
+    letter-spacing: 0.12px; 
+ }
+ .options .episode .info{
+    color:  #78828A;
+
+    font-size: 1.2rem;
+   
+    font-weight: 400;
+    line-height: 1.66;
+    letter-spacing: 0.06px;
+ }
+ 
+.episode-list{
+  display: flex;
+  overflow: hidden; 
+ 
+}
+.for-episode{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+gap: 10px;
+transition: 0.5s;
+    
+}
+
+.episode-list img{
+    object-fit: cover;
+    border-radius: 16px;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+
+
+}
+.episode{
+    position: relative;
+}
+.espisode-desc
+{
+    position: absolute;
+    top: 115px;
+    left: 17px;
+}
+  .options .heading .click-back{
+    position: absolute;
+    top: -7px;
+    right: -11px;
+    
+}
+ .options .heading .click-ahead{
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 9px;
+border-radius: 50%;
+top: -7px;
+right: -52px;
+background-color: #28262D;
+}
+
+.arrow-ahead{
+    border: solid #FFF;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+   padding: 5px;
+   border-radius: 2px;  
 }
