@@ -25,7 +25,6 @@ arrow_episode.onclick =function(){
    //  episode_list[i].classList.add("trans-aheadEpisode");
    // document.episode_list[i].style.transform = "translateX(-100%)";
    episode_list[i].style.transform = `translateX(${translateValue}%)`;
-console.log(translateValue)
 }
 }
 let arrowEpisode_back
@@ -51,8 +50,6 @@ arrow_movieSimilar.onclick =function(){
    translateValue_movieSimilar=translateValue_movieSimilar-50;
    for (let i=0;i<similarMovie_list.length;i++)
    {
-      console.log(translateValue_movieSimilar)
-
    similarMovie_list[i].style.transform = `translateX(${translateValue_movieSimilar}%)`;
 
 }
