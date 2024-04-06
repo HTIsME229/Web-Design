@@ -31,7 +31,6 @@ console.log(translateValue)
 let arrowEpisode_back
 
  arrowEpisode_back= document.querySelector(".heading .click-back");
- console.log(translateValue)
  
 arrowEpisode_back.onclick=function(){
    if(translateValue < 0)
@@ -41,6 +40,45 @@ arrowEpisode_back.onclick=function(){
       episode_list[i].style.transform = `translateX(${translateValue}%)`;
 
    }
-   console.log(translateValue)
 }
+//  code for movieSimilar
+let arrow_movieSimilar = document.querySelector(".list-similarMovie .click-ahead")
+
+let similarMovie_list= document.querySelectorAll(".list-similarMovie .for-similar")
+let translateValue_movieSimilar=0;
+arrow_movieSimilar.onclick =function(){
+   if(translateValue_movieSimilar>-50)
+   translateValue_movieSimilar=translateValue_movieSimilar-50;
+   for (let i=0;i<similarMovie_list.length;i++)
+   {
+      console.log(translateValue_movieSimilar)
+
+   similarMovie_list[i].style.transform = `translateX(${translateValue_movieSimilar}%)`;
+
+}
+}
+let arrow_movieSimilarBack
+
+arrow_movieSimilarBack= document.querySelector(".list-similarMovie .click-back");
+ 
+arrow_movieSimilarBack.onclick=function(){
+   if(translateValue_movieSimilar < 0)
+   translateValue_movieSimilar=translateValue_movieSimilar+50
+   for (let i=0;i<similarMovie_list.length;i++)
+   {
+      similarMovie_list[i].style.transform = `translateX(${translateValue_movieSimilar}%)`;
+
+   }
+
+}
+// code for menu
+let arrow_menu = document.querySelector(".click-menu")
+let menu= document.querySelector(".box-hidden")
+console.log(menu);
+arrow_menu.onclick =function(){
+      menu.classList.toggle('translate-menu')
+}
+
+
+ 
  

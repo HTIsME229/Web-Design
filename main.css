@@ -23,7 +23,7 @@ background-color:black;}
 .container{
     width: 1140px;
     margin: 0 auto;
-    max-width:(100%-48px);
+    max-width:calc(100% - 48px);
     background-color: black;
 }
 body{
@@ -38,10 +38,49 @@ body{
 
 .nav{
     display: flex;
+    position: relative;
     justify-content: space-between;
     align-items: center;
     padding: 39px 75px;
     margin-bottom: 218px;
+}
+.box-menu{
+
+    position: absolute;
+    right: 4px;
+    top: 64px;
+    opacity: 0.7;
+    overflow: hidden;
+}
+.box-hidden{
+
+
+
+transition: 0.5s;
+background-color: #000000;
+
+
+}
+.menu .user{
+    color:#FFF;
+    width: 20px;
+    height: 20px;
+   
+}
+.menu{
+
+
+    padding: 40px 40px ;
+    display: flex;
+    flex-direction: column;
+    gap:20px;    
+    justify-content: start;
+    align-items: start;
+  
+ 
+}
+.translate-menu{
+    transform: translateY(-100%);
 }
 a{
     text-decoration: none;
@@ -254,10 +293,11 @@ top: 23px;
    border-radius: 2px;  
   
 }
+.episode-info{
+    padding: 35px 75px;
+}
 .options{
-    
-    padding-left: 75px;
-    padding-right: 75px;
+    margin-bottom: 40px;
 }
  .choice-list{
    display: flex;
@@ -329,16 +369,19 @@ background: url(<path-to-image>) lightgray 50% / cover no-repeat;
     right: -11px;
     
 }
+.click-ahead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px;
+    border-radius: 50%;
+background-color: #28262D;
+}
  .options .heading .click-ahead{
 position: absolute;
-display: flex;
-align-items: center;
-justify-content: center;
-padding: 9px;
-border-radius: 50%;
+
 top: -7px;
 right: -52px;
-background-color: #28262D;
 }
 
 .arrow-ahead{
@@ -350,4 +393,93 @@ background-color: #28262D;
     -webkit-transform: rotate(-45deg);
    padding: 5px;
    border-radius: 2px;  
+}
+.list-similar{
+    padding: 35px 75px;
+    position: relative;
+}
+.list-similarMovie{
+   display: flex;
+    overflow: hidden;
+}
+.list-similarMovie .for-similar{
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:10px;
+    transition: 0.5s;
+}
+.list-similarMovie .smilarMovieInfo{
+    margin-top: 10px;
+}
+.list-similarMovie .rate{
+    display: flex;
+    gap: 5px;
+    justify-content: start;
+  
+    
+}
+
+.smilarMovieInfo .heading{
+    margin-bottom: 10px;
+}
+
+.list-similarMovie .click-ahead{
+    position: absolute;
+    top: 15px;
+    right: 25px;
+}
+.list-similarMovie .click-back{
+    position: absolute;
+    position: absolute;
+    top: 15px;
+    right: 67px;
+}
+.main-heading{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.33;
+    letter-spacing: 0.12px;
+    margin-bottom: 24px;
+}
+.similar{
+    margin-bottom: 50px;
+}
+.footer-info{
+    padding: 35px 75px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+}
+.footer-top .content-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-top .content-left{
+    width: 40%;
+}
+.footer-top .social{
+    display: flex;
+    margin-top: 138px;
+    gap: 40px;
+}
+.footer-top .heading{
+    font-size: 40px;
+font-weight: 500;
+line-height: 1.2;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+font-weight: 400;
+line-height: 1.57; 
+}
+
+.footer-bottom .content-left{
+    display: flex;
+    gap:26px;
 }
