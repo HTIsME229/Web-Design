@@ -3,82 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/icon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="./assets/icon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="./assets/icon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="./assets/icon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="./assets/icon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="./assets/icon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="./assets/icon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="./assets/icon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./assets/icon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="./assets/icon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="./assets/icon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./assets/icon/favicon-16x16.png">
+<link rel="manifest" href="./assets/icon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="./assets/icon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+    <title style="color: red;">Cinema</title>
 </head>
 <body>
-    <div class="cast-list">
-                
-        <div class="cast-item">
-            <img src="./assets/icon/Bg.svg" alt="" class="avt">
-           <div class="name">
-             <p class="real-name">Pedro Pascal</p>
-             <p class="char-name">Joel Miller</p>
-           </div>
-        </div>
-        <div class="cast-item">
-            <img src="./assets/icon/Bg (1).svg" alt="" class="avt">
-            <div class="name">
-                <p class="real-name">Bella Ramsey</p>
-                <p class="char-name">Ellie</p>
+  <div class="container">
+      <div class="box_login">
+           <div class="topbox">
+                 <div class="topbox__left">
+                    <img src="./assets/icon/watching-a-movie.png" alt="" class="icon">
+                    <h1 class="name">Watch Film</h1>
+                    <p class="login__desc">Đăng Nhập Vào Tài Khoản Của Bạn</p>
+                 </div>
+                <div class="topbox__right">
+                    <label for="" class="button">Đóng</label>
             </div>
-        </div>
-        <div class="cast-item">
-            <img src="./assets/icon/Bg (2).svg" alt="" class="avt">
-            <div class="name">
-                <p class="real-name">Anna Torv</p>
-                <p class="char-name">Tessa</p>
             </div>
-        </div>
-        <div class="cast-item">
-            <img src="./assets/icon/Bg (3).svg" alt="" class="avt">
-            <div class="name">
-                <p class="real-name">Ashley Johnson</p>
-                <p class="char-name">Ellie Mother</p>
-            </div>
-        </div>
-        <div class="cast-item">
-            <img src="./assets/icon/Bg (4).svg" alt="" class="avt">
-            <div class="name">
-                <p class="real-name">Nick Offerman</p>
-                <p class="char-name">Bill</p>
-            </div >
-        </div>
+          
+           <div class="login__info">
+              <form action="" class="box__info">
+                  <label for="email">
+                      Email:
+                      <br>
+                      <input type="text" class="content-input" name="email" id="email" placeholder="Gmail" required>
+                  </label>
+                  
+                  <label for="password" >
+                      Mật Khẩu:
+                      <br>
+                      <input type="password" class="content-input" name="password" id="password" placeholder="Mật Khẩu" >
+                  </label>
+                  
+                  <a class="Forget" href="">Quên Mật Khẩu</a>
+                 
+                        <a  class="button_login" href="./main.html">Đăng Nhập</a>
+                    
 
-    <div class="cast-item">
-        <img src="./assets/icon/Bg (5).svg" alt="" class="avt">
-       <div class="name">
-         <p class="real-name">Nico Parker</p>
-         <p class="char-name">Sarah Miller</p>
-       </div>
-    </div>
-    <div class="cast-item">
-        <img src="./assets/icon/Bg (6).svg" alt="" class="avt">
-        <div class="name">
-            <p class="real-name">Murray Bartlett</p>
-            <p class="char-name">Frank</p>
-        </div>
-    </div>
-    <div class="cast-item">
-        <img src="./assets/icon/Bg (6).svg" alt="" class="avt">
-        <div class="name">
-            <p class="real-name">Murray Bartlett</p>
-            <p class="char-name">Frank</p>
-        </div>
-    </div>
-    <div class="cast-item">
-        <img src="./assets/icon/Bg (6).svg" alt="" class="avt">
-        <div class="name">
-            <p class="real-name">Murray Bartlett</p>
-            <p class="char-name">Frank</p>
-        </div>
-    </div>
-    <div class="cast-item">
-        <img src="./assets/icon/Bg (6).svg" alt="" class="avt">
-        <div class="name">
-            <p class="real-name">Murray Bartlett</p>
-            <p class="char-name">Frank</p>
-        </div>
-    </div>
-    </div>
+                   <p class="sign-up">Chưa Có tài Khoản? <a href="">Đăng Kí</a></p>
+              </form>
+             
+              
+          </div>
+    
+    
+      </div>
+  </div>
+
+
+</div>
+<script src="./login.js"></script>
 </body>
 </html>
