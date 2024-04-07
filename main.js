@@ -75,6 +75,8 @@ console.log(menu);
 arrow_menu.onclick =function(){
       menu.classList.toggle('translate-menu')
 }
+// code JS main.html
+
 
 
  

@@ -12,6 +12,7 @@ html{
     position: relative;
 
 }
+
 .blur-layer{
     position: absolute;
     width: 1139px;
@@ -24,7 +25,7 @@ background-color:black;}
     width: 1140px;
     margin: 0 auto;
     max-width:calc(100% - 48px);
-    background-color: black;
+    background-color: #111319;
 }
 body{
     font-size: 1.6rem;
@@ -32,7 +33,7 @@ body{
     font-family: "Be Vietnam Pro", sans-serif;
     color: #fff;
     /* background-image: url("./assets/icon/hinh-nen-mau-den_112617283.jpg"); */
-  background-color: #000000;
+  background-color: #111319;;
 
 }
 
@@ -482,4 +483,138 @@ line-height: 1.57;
 .footer-bottom .content-left{
     display: flex;
     gap:26px;
+}
+.container-home{
+    background-color: transparent;
+margin: 0 auto;
+max-width: (100%- 48px);
+
+}
+.nav-home{
+    display: flex;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+.menu-film {
+    margin-top: 75px;
+}
+.menu-film .slide{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 1140px;
+    
+    overflow: hidden;
+ 
+
+}
+
+.menu-film .film
+{
+    transition: 1s;
+   width: 817px;
+    height: 460px;
+    object-fit: cover;
+    padding: 0px 0px;
+  z-index: -1;
+
+}
+/* img.film1:hover{
+    /* scale: 1.1; */
+   
+  
+
+.movie-list{
+    
+    margin-top:150px;
+    padding: 50px 75px;
+}    
+.movie-list{
+ overflow: hidden;
+}
+.box_movie{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 40px;
+    
+}
+.box_movie .movie{
+    width: 150px;
+    padding: 30px;
+    background-color:#111319;
+    position: relative;
+   
+}
+ .info-movie{
+    position: absolute;
+    top: 56px;
+    left: 0px;
+    width: 150px;
+    padding: 40px;
+    background-color: #000000;
+    z-index: -1;
+    transition: 0.5s;
+    
+}
+.box_movie .movie0:hover .info-movie0{
+    z-index: 1;
+    scale: 1.4;
+    transform: translateY(-35px);
+}
+.box_movie .movie1:hover .info-movie1{
+    z-index: 1;
+    scale: 1.4;
+    transform: translateY(-35px);
+}
+.box_movie .movie2:hover .info-movie2{
+    z-index: 1;
+    scale: 1.4;
+    transform: translateY(-35px);
+
+}
+.box_movie .movie3:hover .info-movie3{
+    z-index: 1;
+    scale: 1.4;
+    transform: translateY(-35px);
+
+}
+.box_movie .movie4:hover .info-movie4{
+    z-index: 1;
+    scale: 1.4;
+    transform: translateY(-35px);
+
+}
+.movie{
+    text-align: center;
+}
+.box_movie .movie-title{
+font-size: 1.4rem;
+margin-bottom: 2px;
+}
+.box_movie .long{
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+.box_movie .movie-desc{
+    margin-top: 5px;
+    font-size: 1.2rem;
+    text-align: start;
+
+}
+.box_movie .thumb{
+    width: 150px;
+    height: 207px;
+object-fit: cover;
+margin-bottom: 15px;
+}
+.smallThumb{
+    height: 100px;
+  width: 150px;
+  object-fit: cover;  
+} 
+.movie-list .heading{
+    font-size: 3rem;
+    margin-bottom: 15px;
 }
