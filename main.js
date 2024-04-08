@@ -71,7 +71,6 @@ arrow_movieSimilarBack.onclick=function(){
 // code for menu
 let arrow_menu = document.querySelector(".click-menu")
 let menu= document.querySelector(".box-hidden")
-console.log(menu);
 arrow_menu.onclick =function(){
       menu.classList.toggle('translate-menu')
 }
