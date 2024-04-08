@@ -525,10 +525,11 @@ max-width: (100%- 48px);
     /* scale: 1.1; */
      
 .movie-list{
-    margin-top:150px;
+    margin-top:50px;
     width: 100%;
  overflow: hidden;
  display: flex;
+ position: relative;
 
  
 
@@ -630,8 +631,8 @@ margin-bottom: 15px;
     font-size: 3rem;
     margin-bottom: 15px;
 position: absolute;
-top: 752px;
-left: 127px;
+top: 12px;
+left: 75px;
 
 }
 .movie-list .rate{
