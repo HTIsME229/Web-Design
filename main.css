@@ -46,7 +46,7 @@ body{
     margin-bottom: 218px;
 }
 .box-menu{
-
+z-index: 1;
     position: absolute;
     right: 4px;
     top: 64px;
@@ -70,18 +70,18 @@ background-color: #000000;
 }
 .menu{
 
-
     padding: 40px 40px ;
     display: flex;
     flex-direction: column;
     gap:20px;    
     justify-content: start;
     align-items: start;
-  
+    z-index: 1;
  
 }
 .translate-menu{
     transform: translateY(-100%);
+   
 }
 a{
     text-decoration: none;
@@ -416,6 +416,7 @@ right: -52px;
     display: flex;
     gap: 5px;
     justify-content: start;
+    align-items: center;
   
     
 }
@@ -539,7 +540,7 @@ max-width: (100%- 48px);
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 40px;
-transform: translateX(-100%);        
+/*       */
 
 padding: 50px 75px;    
 transition: 2s;
@@ -607,25 +608,34 @@ font-size: 1.4rem;
 margin-bottom: 2px;
 }
 .box_movie .long{
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 5px;
+    display: flex;
+    justify-content: start;
+    white-space: pre;
+}
+.box_movie .point{
+    color: green;
 }
 .box_movie .movie-desc{
     margin-top: 5px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: start;
 
 }
+
 .box_movie .thumb{
     width: 150px;
     height: 207px;
 object-fit: cover;
 margin-bottom: 15px;
+border-radius: 10px;
 }
 .smallThumb{
     height: 100px;
   width: 150px;
-  object-fit: cover;  
+  object-fit: cover; 
+  border-radius: 10px; 
 } 
  .heading_home{
     font-size: 3rem;
@@ -635,12 +645,16 @@ top: 12px;
 left: 75px;
 
 }
+.movie-list .movie-title{
+    margin-top: 5px;
+}
 .movie-list .rate{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     display: flex;
     align-items: center;
     font-weight: 300;
     margin: 5px 0;
+    justify-content: start;
 }
 .movie-list .rate .star{
     margin-right: 5px;
